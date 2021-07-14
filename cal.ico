@@ -1,0 +1,5 @@
+from tkinter import *
+root = Tk()
+root.title('images insertion')
+root.iconbitmap('C:\Users\ACER\Desktop\cal.ico')
+root.mainloop()
