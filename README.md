@@ -6,7 +6,7 @@
 
 <h2>INTRODUCTION</h2>
 
-This simple calculator allows us to calculate baisc mathemathical operations such as addition, substraction, multiplication, division and modulus.The calculations in this 
+This simple calculator allows us to calculate basic mathematical operations such as addition, subtraction, multiplication, division and modulus.The calculations in this 
 calculator is done by importing standard module math in python. It also consists of features like CE (clear entry) button and backspace button ⇦ .
 
 <h3>FEATURES</h3>
@@ -15,7 +15,7 @@ The Calculator consist of functions as:
 
 - **Addition**
  
-- **Substraction**
+- **Subtraction**
  
 - **Multiplication**
  
