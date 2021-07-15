@@ -2,6 +2,7 @@ import math
 from _ast import Lambda
 from tkinter import *
 from tkinter.font import Font
+from tkinter import messagebox
 root = Tk()
 root.title("Simple Calculator")
 root.configure(background='black')
@@ -48,11 +49,13 @@ def button_mul():
 
 def button_div():
     first_number = e.get()
+
     global f_num
     global math
     math = "division"
     f_num = int(first_number)
     e.delete(0, END)
+
 
 def button_mod():
     first_number = e.get()
@@ -72,8 +75,12 @@ def button_equal():
         e.insert(0, f_num - int(second_number))
     if math =="multiplication":
         e.insert(0, f_num * int(second_number))
-    if math =="division":
-        e.insert(0, f_num / int(second_number))
+    if math == "division":
+        try:
+            e.insert(0, f_num / int(second_number))
+        except ZeroDivisionError:
+            messagebox.showerror("Error!!", "A number can't be divided by zero.")
+
     if math =="modulus":
         e.insert(0, f_num % int(second_number))
 
