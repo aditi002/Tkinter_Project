@@ -9,7 +9,7 @@
 This simple calculator allows us to calculate basic mathematical operations such as addition, subtraction, multiplication, division and modulus.The calculations in this 
 calculator is done by importing standard module math in python. It also consists of features like CE (clear entry) button and backspace button ⇦ .
 
-<h3>FEATURES</h3>
+<h2>FEATURES</h2>
 
 The Calculator consist of functions as:
 
@@ -29,7 +29,7 @@ It also pops up error message when the user inputs a number to be divided by zer
 
 <img width="500" src="https://user-images.githubusercontent.com/84695105/125783642-07154e2b-d3ee-4ffa-9e4a-fc51d70dd769.PNG">
 
-<h4>VISION</h4>
+<h2>VISION</h2>
 
 - to add more functions such as exponential and floor divisions
 - to display keys (+, -, *, ÷, mod).
